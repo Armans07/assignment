@@ -16,8 +16,7 @@
 .banner-title{
     font-weight: 900;
     font-size: 44px;
-    text-align: : center right;
-    background-size: cover;
+    text-align: : center left;
     margin-left: 700px;
     margin-top: 0px
 
@@ -58,19 +57,44 @@ padding-top: 150px;
 /* failures style */
 
 .failures{
-display: flex;
-    
-}    
-.title{
+    display: flex;
+    margin-top: 100px;
+    size: 60px;
+ 
+}
+  
+.failures-title{
 text-align: center left;
-margin-bottom: 50px;
+margin-right: 100px;
+margin-bottom: px;
+margin-top: 50px;
+margin-left: 100px;
+font-size: 30px;
+width: 288px;
+height: 94px;
+
+}
+.failures-description{
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 400px;
+    height: 104px;
+}
+.failures-list{
+margin-left: 100px;
 
 }
 
-.titile-descriptaion{
+.failures-image{
+    height: 500px;
+    width: 400px;
+    margin-left: 200px;
+}
     
-}
-/* skill style */
+
+/* plan style */
 .what-i-do{
     margin-top: 200px;
     margin-bottom: 200px;
@@ -88,7 +112,11 @@ margin-bottom: 50px;
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
-
+}
+.title{
+    font-size: 30px;
+    margin-right: 130px;
+    margin-bottom: 20px;
 }
 .plan{
     
@@ -99,8 +127,9 @@ margin-bottom: 50px;
 margin-right: 120px;   
  
 }
+.plan-descriptaion
 
-/* skill style */
+/* contact style */
 
 .contact .section-title{
     text-align: center;
@@ -129,9 +158,11 @@ margin-right: 120px;
     margin-top: 20px;
 }
 .button{
-    color: #ffffff;
-    background-color: #fd6e0a;
+    color: #fd6e0a;
+    background-color: #ffffff;
     width: 150px;
     height: 50px;
     font-weight: 700px;
-}
+    border-radius: 5px;
+    font-weight: 700;
+}   
